@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=ubuntu:jammy
+ARG BASE_IMAGE=ubuntu:resolute
 
 FROM $BASE_IMAGE
 COPY get-package-version.sh /get-package-version.sh
